@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#author-name {
+    width: 504px;
+}
+textarea, input[type=text] {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;  
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px; 
+}
+.margin-t-10px {
+    margin-top : 10px;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: darkblue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px blue;
+}
+
+.button:hover {background-color: blue}
+
+.button:active {
+  background-color: blue;
+  box-shadow: 0 1px blue;
+  transform: translateY(4px);
+}
+body{
+   background: rgba(0, 0, 128,1); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right,rgba(0, 0, 128,0),rgba(0, 0, 128,1)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(right,rgba(0, 0, 128,0),rgba(0, 0, 128,1)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(right,rgba(0, 0, 128,0),rgba(0, 0, 128,1)); /*Fx 3.6-15*/
+  background: linear-gradient(to right, rgba(0, 0, 128,0), rgba(0, 0, 128,1)); /*Standard*/
+}
